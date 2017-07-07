@@ -1,0 +1,18 @@
+OOP
+
+Klasse der henter rå data fra google.com/finance
+
+Klasse der behandler data til SC format og opdeler i trænings- og testdata
+
+NN Klasse, skal gerne kunne håndtere batchtræning, dataformat: Network.Train(Xtrain, Ytrain)
+hvor X/Ytrain er vektorer, eller, for batchtræning, matricer hvor hver kolonne er en trænings-
+vektor.
+
+Klasse der står for at gemme og hente NN parametre
+
+Valideringsklasse (indbygget i NN?) skal håndtere udregning af andel
+af data der forudsiges korrekt både for trænings- og testdata
+
+
+Hovedprogram der vælger mellem forskellige flows og opretter
+de nødvendige objekter m.m.
